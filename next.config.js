@@ -4,6 +4,8 @@ const nextConfig = {
   trailingSlash: true,
   skipTrailingSlashRedirect: true,
   distDir: 'out',
+  basePath: '/Ana_App',
+  assetPrefix: '/Ana_App/',
   images: {
     unoptimized: true,
     domains: ['localhost', 'example.com'],
