@@ -1,7 +1,21 @@
-# Ana Fitness App - GitHub Pages Deployment Guide
+# Ana Fitness App - Multi-Environment Deployment Guide
 
 ## Overview
-This guide explains how to deploy the Ana Fitness App to GitHub Pages as a static Progressive Web App (PWA).
+This guide explains how to deploy the Ana Fitness App to GitHub Pages with separate staging and production environments.
+
+## Deployment Environments
+
+### 🚀 Production Environment
+- **Branch**: `main`
+- **URL**: `https://[username].github.io/[repository-name]/`
+- **Deploy Branch**: `gh-pages`
+- **Trigger**: Push to `main` branch
+
+### 🧪 Staging Environment
+- **Branch**: `develop`
+- **URL**: `https://[username].github.io/[repository-name]/staging/`
+- **Deploy Branch**: `gh-pages-staging`
+- **Trigger**: Push to `develop` branch
 
 ## Prerequisites
 - GitHub repository with the Ana Fitness App code
@@ -31,9 +45,45 @@ const nextConfig = {
 
 ### 3. GitHub Actions Workflow
 Automated deployment is configured in `.github/workflows/deploy.yml`:
-- Triggers on push to main branch
-- Builds the app using Node.js 18
-- Deploys to GitHub Pages
+- **Production**: Triggers on push to `main` branch → deploys to `gh-pages`
+- **Staging**: Triggers on push to `develop` branch → deploys to `gh-pages-staging`
+- **PR Comments**: Automatically comments on pull requests with build status
+
+## 🔄 Development Workflow
+
+### Recommended Git Flow
+
+1. **Feature Development**:
+   ```bash
+   git checkout -b feature/new-feature
+   # Make your changes
+   git commit -m "Add new feature"
+   git push origin feature/new-feature
+   ```
+
+2. **Create Pull Request**:
+   - Open PR from `feature/new-feature` → `develop`
+   - GitHub Actions will build and comment on the PR
+   - Review and merge to `develop`
+
+3. **Staging Deployment**:
+   ```bash
+   git checkout develop
+   git pull origin develop
+   # Automatic deployment to staging environment
+   ```
+
+4. **Production Release**:
+   ```bash
+   git checkout main
+   git merge develop
+   git push origin main
+   # Automatic deployment to production
+   ```
+
+### Environment URLs
+- **Staging**: `https://[username].github.io/[repository-name]/staging/`
+- **Production**: `https://[username].github.io/[repository-name]/`
 
 ### 4. Mock Authentication
 Since GitHub Pages only supports static files, API routes have been replaced with a mock authentication service:

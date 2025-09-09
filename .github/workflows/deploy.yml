@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, develop ]
   pull_request:
     branches: [ main ]
 
@@ -29,9 +29,34 @@ jobs:
     - name: Add .nojekyll file
       run: touch out/.nojekyll
       
-    - name: Deploy to GitHub Pages
+    # Deploy to production (main branch)
+    - name: Deploy to Production
       uses: peaceiris/actions-gh-pages@v3
-      if: github.ref == 'refs/heads/main'
+      if: github.ref == 'refs/heads/main' && github.event_name == 'push'
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./out
+        publish_branch: gh-pages
+        
+    # Deploy to staging (develop branch)
+    - name: Deploy to Staging
+      uses: peaceiris/actions-gh-pages@v3
+      if: github.ref == 'refs/heads/develop' && github.event_name == 'push'
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./out
+        publish_branch: gh-pages-staging
+        destination_dir: staging
+        
+    # Comment on PR with preview link
+    - name: Comment PR
+      uses: actions/github-script@v6
+      if: github.event_name == 'pull_request'
+      with:
+        script: |
+          github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: '🚀 **Preview Build Complete!**\n\nYour changes are ready for review. Once merged to `develop`, they will be deployed to the staging environment.'
+          })
