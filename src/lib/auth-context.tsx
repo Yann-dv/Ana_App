@@ -18,16 +18,12 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     try {
       const token = localStorage.getItem('auth_token')
       if (token) {
-        // Validate token with API
-        const response = await fetch('/api/auth/me', {
-          headers: {
-            'Authorization': `Bearer ${token}`
-          }
-        })
+        // Validate token with mock service for static deployment
+        const { mockVerifyToken } = await import('@/lib/mock-auth')
+        const result = await mockVerifyToken(token)
         
-        if (response.ok) {
-          const userData = await response.json()
-          setUser(userData)
+        if (result.valid && result.user) {
+          setUser(result.user)
         } else {
           localStorage.removeItem('auth_token')
         }
@@ -41,22 +37,16 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
   const login = async (email: string, password: string) => {
     try {
-      const response = await fetch('/api/auth/login', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ email, password }),
-      })
-
-      if (response.ok) {
-        const { user, token } = await response.json()
-        localStorage.setItem('auth_token', token)
-        setUser(user)
+      // Use mock authentication for static deployment
+      const { mockLogin } = await import('@/lib/mock-auth')
+      const result = await mockLogin(email, password)
+      
+      if (result.success && result.user && result.token) {
+        localStorage.setItem('auth_token', result.token)
+        setUser(result.user)
         return { success: true }
       } else {
-        const error = await response.json()
-        return { success: false, error: error.message }
+        return { success: false, error: result.error || 'Login failed' }
       }
     } catch (error) {
       return { success: false, error: 'Login failed' }
@@ -65,22 +55,16 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
   const register = async (name: string, email: string, password: string) => {
     try {
-      const response = await fetch('/api/auth/register', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ name, email, password }),
-      })
-
-      if (response.ok) {
-        const { user, token } = await response.json()
-        localStorage.setItem('auth_token', token)
-        setUser(user)
+      // Use mock authentication for static deployment
+      const { mockRegister } = await import('@/lib/mock-auth')
+      const result = await mockRegister(name, email, password)
+      
+      if (result.success && result.user && result.token) {
+        localStorage.setItem('auth_token', result.token)
+        setUser(result.user)
         return { success: true }
       } else {
-        const error = await response.json()
-        return { success: false, error: error.message }
+        return { success: false, error: result.error || 'Registration failed' }
       }
     } catch (error) {
       return { success: false, error: 'Registration failed' }

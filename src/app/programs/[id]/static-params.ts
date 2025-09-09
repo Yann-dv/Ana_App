@@ -1,6 +1,4 @@
-import ProgramPageClient from './program-client';
-
-// Generate static params for static export
+// Static params generation for programs
 export async function generateStaticParams() {
   // Define the program IDs that should be statically generated
   const programIds = [
@@ -15,8 +13,4 @@ export async function generateStaticParams() {
   return programIds.map((id) => ({
     id: id,
   }));
-}
-
-export default function ProgramPage({ params }: { params: { id: string } }) {
-  return <ProgramPageClient params={params} />;
 }
