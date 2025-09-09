@@ -1,0 +1,56 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[492],{8203:function(e,t,r){r.d(t,{Z:function(){return i}});/**
+ * @license lucide-react v0.294.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */let i=(0,r(2898).Z)("Calendar",[["rect",{width:"18",height:"18",x:"3",y:"4",rx:"2",ry:"2",key:"eu3xkr"}],["line",{x1:"16",x2:"16",y1:"2",y2:"6",key:"m3sa8f"}],["line",{x1:"8",x2:"8",y1:"2",y2:"6",key:"18kwsl"}],["line",{x1:"3",x2:"21",y1:"10",y2:"10",key:"xt86sb"}]])},6141:function(e,t,r){r.d(t,{Z:function(){return i}});/**
+ * @license lucide-react v0.294.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */let i=(0,r(2898).Z)("Clock",[["circle",{cx:"12",cy:"12",r:"10",key:"1mglay"}],["polyline",{points:"12 6 12 12 16 14",key:"68esgv"}]])},9168:function(e,t,r){r.d(t,{Z:function(){return i}});/**
+ * @license lucide-react v0.294.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */let i=(0,r(2898).Z)("Crown",[["path",{d:"m2 4 3 12h14l3-12-6 7-4-7-4 7-6-7zm3 16h14",key:"zkxr6b"}]])},2482:function(e,t,r){r.d(t,{Z:function(){return i}});/**
+ * @license lucide-react v0.294.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */let i=(0,r(2898).Z)("Filter",[["polygon",{points:"22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3",key:"1yg77f"}]])},7810:function(e,t,r){r.d(t,{Z:function(){return i}});/**
+ * @license lucide-react v0.294.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */let i=(0,r(2898).Z)("Heart",[["path",{d:"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z",key:"c3ymky"}]])},4900:function(e,t,r){r.d(t,{Z:function(){return i}});/**
+ * @license lucide-react v0.294.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */let i=(0,r(2898).Z)("Play",[["polygon",{points:"5 3 19 12 5 21 5 3",key:"191637"}]])},1827:function(e,t,r){r.d(t,{Z:function(){return i}});/**
+ * @license lucide-react v0.294.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */let i=(0,r(2898).Z)("Search",[["circle",{cx:"11",cy:"11",r:"8",key:"4ej97u"}],["path",{d:"m21 21-4.3-4.3",key:"1qie3q"}]])},2245:function(e,t,r){r.d(t,{Z:function(){return i}});/**
+ * @license lucide-react v0.294.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */let i=(0,r(2898).Z)("Star",[["polygon",{points:"12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2",key:"8f66p6"}]])},6654:function(e,t,r){r.d(t,{Z:function(){return i}});/**
+ * @license lucide-react v0.294.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */let i=(0,r(2898).Z)("Target",[["circle",{cx:"12",cy:"12",r:"10",key:"1mglay"}],["circle",{cx:"12",cy:"12",r:"6",key:"1vlfrh"}],["circle",{cx:"12",cy:"12",r:"2",key:"1c9p78"}]])},5790:function(e,t,r){r.d(t,{Z:function(){return i}});/**
+ * @license lucide-react v0.294.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */let i=(0,r(2898).Z)("TrendingUp",[["polyline",{points:"22 7 13.5 15.5 8.5 10.5 2 17",key:"126l90"}],["polyline",{points:"16 7 22 7 22 13",key:"kwv8wd"}]])},5750:function(e,t,r){r.d(t,{Z:function(){return i}});/**
+ * @license lucide-react v0.294.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */let i=(0,r(2898).Z)("Users",[["path",{d:"M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2",key:"1yyitq"}],["circle",{cx:"9",cy:"7",r:"4",key:"nufk8"}],["path",{d:"M22 21v-2a4 4 0 0 0-3-3.87",key:"kshegd"}],["path",{d:"M16 3.13a4 4 0 0 1 0 7.75",key:"1da9ce"}]])},3779:function(e,t,r){r.r(t),r.d(t,{AuthProvider:function(){return o},useAuth:function(){return a}});var i=r(7437),n=r(2265);let s=(0,n.createContext)(void 0);function o(e){let{children:t}=e,[r,o]=(0,n.useState)(null),[a,l]=(0,n.useState)(!0);(0,n.useEffect)(()=>{u()},[]);let u=async()=>{try{let e=localStorage.getItem("auth_token");if(e){if(e.startsWith("demo_token_")){let e={id:"1",name:"Demo User",email:"demo@example.com",subscription:"free",createdAt:new Date().toISOString()};o(e)}else localStorage.removeItem("auth_token")}}catch(e){console.error("Auth check failed:",e)}finally{l(!1)}},c=async(e,t)=>{try{if(!e||!t)return{success:!1,error:"Please enter email and password"};{let t={id:"1",name:"Demo User",email:e,subscription:"free",createdAt:new Date().toISOString()},r="demo_token_"+Date.now();return localStorage.setItem("auth_token",r),o(t),{success:!0}}}catch(e){return{success:!1,error:"Login failed"}}},d=async(e,t,r)=>{try{if(!e||!t||!r)return{success:!1,error:"Please fill in all fields"};{let r={id:"1",name:e,email:t,subscription:"free",createdAt:new Date().toISOString()},i="demo_token_"+Date.now();return localStorage.setItem("auth_token",i),o(r),{success:!0}}}catch(e){return{success:!1,error:"Registration failed"}}};return(0,i.jsx)(s.Provider,{value:{user:r,loading:a,login:c,register:d,logout:()=>{localStorage.removeItem("auth_token"),o(null)},updateSubscription:e=>{r&&o({...r,subscription:e})}},children:t})}function a(){let e=(0,n.useContext)(s);if(void 0===e)throw Error("useAuth must be used within an AuthProvider");return e}},1638:function(e,t,r){r.r(t),r.d(t,{SubscriptionProvider:function(){return a},useSubscription:function(){return l}});var i=r(7437),n=r(2265);let s=(0,n.createContext)(void 0),o=[{id:"free",name:"Free",price:0,features:["Access to 5 basic workout programs","Limited progress tracking","Community access","Basic nutrition tips","Standard video quality"],limits:{programs:5,liveClasses:0,downloads:0,support:"basic"}},{id:"standard",name:"Standard",price:19.99,features:["Access to 50+ workout programs","Full progress tracking & analytics","Live classes (5 per month)","Personalized meal plans","HD video quality","Priority customer support","Offline video downloads"],limits:{programs:50,liveClasses:5,downloads:10,support:"priority"}},{id:"premium",name:"Premium",price:39.99,features:["Unlimited access to all programs","Advanced analytics & insights","Unlimited live classes","Personal trainer consultations","4K video quality","24/7 priority support","Exclusive premium content","Custom workout creation","Nutrition coaching","Achievement badges & rewards"],limits:{programs:"unlimited",liveClasses:"unlimited",downloads:"unlimited",support:"24/7"}}],a=e=>{let{children:t}=e,[r,a]=(0,n.useState)(null),[l,u]=(0,n.useState)(null),[c,d]=(0,n.useState)(!0),[m,f]=(0,n.useState)({programsAccessed:0,liveClassesAttended:0,downloadsUsed:0});(0,n.useEffect)(()=>{(()=>{let e=o.find(e=>"free"===e.id);e&&(a(e),u({planId:"free",status:"active",startDate:new Date,endDate:new Date(Date.now()+31536e6),autoRenew:!1})),d(!1)})()},[]);let p=async(e,t)=>{try{d(!0),await new Promise(e=>setTimeout(e,1e3));let r=o.find(t=>t.id===e);if(!r)return!1;let i=new Date;return"monthly"===t?i.setMonth(i.getMonth()+1):i.setFullYear(i.getFullYear()+1),a(r),u({planId:e,status:"active",startDate:new Date,endDate:i,autoRenew:!0}),f({programsAccessed:0,liveClassesAttended:0,downloadsUsed:0}),!0}catch(e){return console.error("Subscription error:",e),!1}finally{d(!1)}},y=async()=>{try{return d(!0),await new Promise(e=>setTimeout(e,1e3)),l&&u({...l,status:"cancelled",autoRenew:!1}),!0}catch(e){return console.error("Cancellation error:",e),!1}finally{d(!1)}},g=async e=>{try{d(!0),await new Promise(e=>setTimeout(e,1e3));let t=o.find(t=>t.id===e);if(!t||!l)return!1;return a(t),u({...l,planId:e}),!0}catch(e){return console.error("Update error:",e),!1}finally{d(!1)}};return(0,i.jsx)(s.Provider,{value:{currentPlan:r,subscription:l,availablePlans:o,isLoading:c,subscribeToPlan:p,cancelSubscription:y,updateSubscription:g,checkAccess:e=>{if(!r)return!1;switch(e){case"programs":if("unlimited"===r.limits.programs)return!0;return m.programsAccessed<r.limits.programs;case"liveClasses":if("unlimited"===r.limits.liveClasses)return!0;return m.liveClassesAttended<r.limits.liveClasses;case"downloads":if("unlimited"===r.limits.downloads)return!0;return m.downloadsUsed<r.limits.downloads;case"premiumContent":case"personalTrainer":case"customWorkouts":return"premium"===r.id;default:return!0}},getRemainingUsage:e=>{if(!r)return 0;switch(e){case"programs":if("unlimited"===r.limits.programs)return"unlimited";return Math.max(0,r.limits.programs-m.programsAccessed);case"liveClasses":if("unlimited"===r.limits.liveClasses)return"unlimited";return Math.max(0,r.limits.liveClasses-m.liveClassesAttended);case"downloads":if("unlimited"===r.limits.downloads)return"unlimited";return Math.max(0,r.limits.downloads-m.downloadsUsed);default:return 0}}},children:t})},l=()=>{let e=(0,n.useContext)(s);if(void 0===e)throw Error("useSubscription must be used within a SubscriptionProvider");return e}},5409:function(e,t,r){r.r(t),r.d(t,{VideoProvider:function(){return o},useVideo:function(){return a}});var i=r(7437),n=r(2265);let s=(0,n.createContext)(void 0),o=e=>{let{children:t}=e,[r,o]=(0,n.useState)([]),[a,l]=(0,n.useState)({isPlaying:!1,isMuted:!1,volume:1,playbackRate:1,quality:"auto",subtitles:!1,fullscreen:!1}),[u,c]=(0,n.useState)(null);(0,n.useEffect)(()=>{let e=localStorage.getItem("videoProgress");if(e)try{let t=JSON.parse(e);o(t.map(e=>({...e,lastWatched:new Date(e.lastWatched)})))}catch(e){console.error("Failed to load video progress:",e)}let t=localStorage.getItem("videoState");if(t)try{l(JSON.parse(t))}catch(e){console.error("Failed to load video state:",e)}},[]),(0,n.useEffect)(()=>{localStorage.setItem("videoProgress",JSON.stringify(r))},[r]),(0,n.useEffect)(()=>{localStorage.setItem("videoState",JSON.stringify(a))},[a]);let d=e=>{o(t=>{let r=t.findIndex(t=>t.videoId===e.videoId&&t.programId===e.programId),i={currentTime:0,duration:0,completed:!1,lastWatched:new Date,...r>=0?t[r]:{},...e};if(!(r>=0))return[...t,i];{let e=[...t];return e[r]=i,e}})};return(0,i.jsx)(s.Provider,{value:{videoProgress:r,updateVideoProgress:d,getVideoProgress:(e,t)=>r.find(r=>r.videoId===e&&r.programId===t)||null,markVideoComplete:(e,t)=>{d({videoId:e,programId:t,completed:!0,lastWatched:new Date})},videoState:a,updateVideoState:e=>{l(t=>({...t,...e}))},currentVideo:u,setCurrentVideo:c,getTotalWatchTime:()=>r.reduce((e,t)=>e+(t.completed?t.duration:t.currentTime),0),getCompletedVideosCount:()=>r.filter(e=>e.completed).length,getProgramProgress:e=>{let t=r.filter(t=>t.programId===e),i=t.filter(e=>e.completed).length,n=t.length;return{completed:i,total:n,percentage:n>0?i/n*100:0}}},children:t})},a=()=>{let e=(0,n.useContext)(s);if(void 0===e)throw Error("useVideo must be used within a VideoProvider");return e};t.default=s}}]);
